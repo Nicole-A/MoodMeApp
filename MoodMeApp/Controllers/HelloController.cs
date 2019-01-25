@@ -13,7 +13,7 @@ namespace MoodMeApp.Controllers
         // GET: /<controller>/
         public IActionResult Index()
         {
-            return Content("Hello World");
+            return Content("Hello World!");
         }
     }
 }
