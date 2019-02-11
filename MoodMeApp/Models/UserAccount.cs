@@ -7,7 +7,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace MoodMeApp.Models
 {
-    public class Signup
+    public class UserAccount
     {
         [Key]
         public int UserID { get; set; }
@@ -20,6 +20,9 @@ namespace MoodMeApp.Models
 
         [Required(ErrorMessage = "This field is required.")]
         public string Email { get; set; }
+
+        [Required(ErrorMessage = "This field is required.")]
+        public string Username { get; set; }
 
         [Required(ErrorMessage = "This field is required.")]
         [DataType(DataType.Password)]

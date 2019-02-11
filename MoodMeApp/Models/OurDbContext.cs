@@ -6,8 +6,8 @@ using System.Data.Entity;
 
 namespace MoodMeApp.Models
 {
-    public class AppDbContext: DbContext
+    public class OurDbContext: DbContext
     {
-        public DbSet<Signup> userAccount { get; set;}
+        public DbSet<UserAccount> userAccount { get; set;}
     }
 }
