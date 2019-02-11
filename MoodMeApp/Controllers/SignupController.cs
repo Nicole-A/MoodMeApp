@@ -11,12 +11,12 @@ namespace MoodMeApp.Controllers
 {
     public class SignupController : Controller
     {
-        // GET: Signup
+        // GET: /<controller>/
 
-        public ActionResult Signup()
+       public ActionResult Signup()
         {
             return View();
-        }
+        } 
 
         [HttpPost]
         public ActionResult Signup(Signup account)
