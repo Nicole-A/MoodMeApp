@@ -14,7 +14,7 @@ namespace MoodMeApp.Controllers
     {
         // GET: /<controller>/
 
-       public ActionResult Index()
+       public ActionResult Register()
         {
             return View();
         } 
